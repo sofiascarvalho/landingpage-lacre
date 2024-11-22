@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfeadf;
+    color: #333;
+}
+header {
+    background-color: #004d00;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    padding: 0px;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+}
+.cta {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+.cta:hover {
+    background-color: #005900;
+}
+#texto p {
+    color: #004d00;
+    font-family: Arial, sans-serif;
+    font-weight: 90;
+    font-size: 2rem; /* Alterando o tamanho da fonte */
+    margin-top: 40px;
+}
+
+
+@media (max-width: 960px) {
+    header{
+        font-size: 18px;
+        padding: 15px;
+    }
+    .container{
+        padding: 0;
+    }
+    .cta{
+        padding: 20px 29px;
+        font-size: 19px;
+        margin-top: 40px;
+    }
+    #texto p {
+        color: #004d00;
+        font-family: Arial, sans-serif;
+        width: 1200;
+        font-size: 1.8rem; /* Alterando o tamanho da fonte */
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1{
+        font-size: 25px;
+    }
+    .container{
+        padding: 0;
+    }
+    .cta{
+        padding: 12px 18px;
+        font-size: 12px;
+        margin-top: 79px;
+    }
+    #texto p {
+        color: #004d00;
+        font-family: Arial, sans-serif;
+        font-weight: 90;
+        font-size: 0.9rem; /* Alterando o tamanho da fonte */
+        margin-top: 62px;
+    }
+}
