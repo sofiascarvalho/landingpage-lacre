@@ -33,6 +33,7 @@ header {
 }
 .cta:hover {
     background-color: #005900;
+    text-decoration: underline;
 }
 #texto p {
     color: #004d00;
